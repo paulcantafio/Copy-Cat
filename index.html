@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Not Dark Sky</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>Support for the IOS APP ends very soon and so will the API</header>
+
+    <div class="navbar">
+        <nav>
+            <ul>
+                <li><a href="#">Dark Sky</a></li><img id=logo src="./imgs/darkskylogo.png" alt="Dark Sky Logo">
+                <li><a href="#">App</a></li><img id=app src="./imgs/mobile-app-icon.png" alt="IPhone Icon">
+                <li><a href="#">Maps</a></li>
+                <li><a href="#">Dark Sky API</a></li>
+                <li><a href="#">Help</a></li>
+
+            </ul>
+        </nav>
+    </div>
+
+    <div class="stuff">
+        <div class="dropdown">
+            <label for="F,MPH"></label>
+            <select name="MPH" id="MPH">
+                <option value="F,mph">F,mph</option>
+                <option value="C,m/s">C,m/s</option>
+                <option value="C,km/h">C,km/h</option>
+                <option value="C,mph">C,mph</option>
+            </select>
+            <label for="English"></label>
+            <select name="English" id="lang">
+                <option value="English">English</option>
+                <option value="Spanish">Spanish</option>
+                <option value="French">French</option>
+                <option value="Italian">Italian</option>
+            </select>
+        </div>
+        <div>
+            <form>
+                <input type="search" id="search">
+            </form>
+            <img id="searchpng" src="./imgs/search.png" alt="search">
+            <img id="localpng" src="./imgs/current-location.png" alt="search">
+        </div>
+    </div>
+<div class="wind">
+    <ul>
+        <li>Wind</li>
+        <li>Humidity</li>
+        <li>Dew Pt.</li>
+        <li>UV Index</li>
+        <li>Visibilty</li>
+        <li>Pressure</li>
+    </ul>
+</div>
+<div>
+    <h2 id="clear">79 Clear</h2>
+    <img id="clearpng" src="./imgs/clear-day.png" alt="Sun">
+    <h4>Party Cloudy Throughout the Day</h3>
+    <img src="./imgs/download.png">
+</div>
+</body>
+
+</html>
